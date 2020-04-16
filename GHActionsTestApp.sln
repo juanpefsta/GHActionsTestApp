@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTestingApp.Android", "MyT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTestingApp.iOS", "MyTestingApp\MyTestingApp.iOS\MyTestingApp.iOS.csproj", "{3C2C8BC8-5657-4644-BE8C-C66FCDC14C1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTestingApp", "MyTestingApp\MyTestingApp\MyTestingApp.csproj", "{4B4406A7-BEAE-4AEE-8F59-5A849C996E47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTestingApp", "MyTestingApp\MyTestingApp\MyTestingApp.csproj", "{4B4406A7-BEAE-4AEE-8F59-5A849C996E47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +38,7 @@ Global
 		{6C8A591C-B5F5-43FC-8E05-2960110C26FD}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{6C8A591C-B5F5-43FC-8E05-2960110C26FD}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
 		{3C2C8BC8-5657-4644-BE8C-C66FCDC14C1A}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{3C2C8BC8-5657-4644-BE8C-C66FCDC14C1A}.Debug|Any CPU.Build.0 = Debug|iPhone
 		{3C2C8BC8-5657-4644-BE8C-C66FCDC14C1A}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{3C2C8BC8-5657-4644-BE8C-C66FCDC14C1A}.Debug|iPhone.Build.0 = Debug|iPhone
 		{3C2C8BC8-5657-4644-BE8C-C66FCDC14C1A}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
