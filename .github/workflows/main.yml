@@ -29,5 +29,4 @@ jobs:
       run: |
         cd MyTestingApp
         nuget restore
-        cd MyTestingApp.Android
         msbuild MyTestingApp.Android.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
