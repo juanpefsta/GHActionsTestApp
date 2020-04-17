@@ -41,4 +41,4 @@ jobs:
         nuget restore
         cd MyTestingApp
         cd MyTestingApp.iOS
-        msbuild MyTestingApp.iOS/MyTestingApp.iOS.csproj /verbosity:normal /t:Rebuild /p:Platform=iPhoneSimulator /p:Configuration=Debug
+        msbuild MyTestingApp.iOS.csproj /verbosity:normal /t:Rebuild /p:Platform=iPhoneSimulator /p:Configuration=Debug
