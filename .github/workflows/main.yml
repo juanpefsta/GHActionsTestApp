@@ -31,3 +31,14 @@ jobs:
         cd MyTestingApp
         cd MyTestingApp.Android
         msbuild MyTestingApp.Android.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
+        
+  iOS:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: iOS
+      run: |
+        nuget restore
+        cd MyTestingApp
+        cd MyTestingApp.iOS
+        msbuild MyTestingApp.iOS/Blank.iOS.csproj /verbosity:normal /t:Rebuild /p:Platform=iPhoneSimulator /p:Configuration=Debug
